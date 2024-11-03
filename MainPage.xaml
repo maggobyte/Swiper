@@ -58,7 +58,7 @@
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     FontSize="24"
-                    MaximumWidthRequest="285"
+                    MaximumWidthRequest="270"
                     MaximumHeightRequest="175"/>
                 </Grid>
             </VerticalStackLayout>
@@ -81,6 +81,7 @@
                 Source="approve.png"
                 WidthRequest="75"
                 HeightRequest="75"
+                Clicked="LoadImage_Click"
                 />
         </HorizontalStackLayout>
         <HorizontalStackLayout

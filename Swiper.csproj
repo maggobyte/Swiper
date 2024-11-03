@@ -58,10 +58,14 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\cats\cat1.jpg" />
+	  <None Remove="Resources\Images\cats\cat2.jpg" />
+	  <None Remove="Resources\Images\cats\cat3.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <MauiImage Include="Resources\Images\cats\cat1.jpg" />
+	  <MauiImage Include="Resources\Images\cats\cat2.jpg" />
+	  <MauiImage Include="Resources\Images\cats\cat3.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
