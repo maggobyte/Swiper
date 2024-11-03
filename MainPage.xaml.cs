@@ -48,8 +48,10 @@ namespace Swiper
                 Console.WriteLine($"Failed to load data from JSON file: {ex.Message}");
             }
         }
-        private void LoadImage_Click(object sender, EventArgs e)
+        private async void LoadImage_Click(object sender, EventArgs e)
         {
+            approveBtn.IsEnabled = false;
+            denyBtn.IsEnabled = false;
             if (imageFiles.Count == 0 || nameList.Count == 0 || descriptionList.Count == 0) return;
 
             topcat.Source = ImageSource.FromFile(imageFiles[currentImageIndex]);
@@ -62,6 +64,9 @@ namespace Swiper
 
             currentImageIndex = (currentImageIndex + 1) % imageFiles.Count;
 
+            await Task.Delay(300);
+            approveBtn.IsEnabled = true;
+            denyBtn.IsEnabled = true;
         }
     }
     public class DataModel

@@ -57,7 +57,7 @@
                     Text="CATDESCRIPTION"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
-                    FontSize="24"
+                    FontSize="20"
                     MaximumWidthRequest="270"
                     MaximumHeightRequest="175"/>
                 </Grid>
@@ -75,7 +75,7 @@
                 Source="deny.png"
                 WidthRequest="75"
                 HeightRequest="75"
-                />
+                Clicked="LoadImage_Click"/>
             <ImageButton
                 x:Name="approveBtn"
                 Source="approve.png"

@@ -1,17 +1,69 @@
-{
+﻿{
   "images": [
     "cat1.jpg",
     "cat2.jpg",
-    "cat3.jpg"
+    "cat3.jpg",
+    "cat4.jpg",
+    "cat5.jpg",
+    "cat6.jpg",
+    "cat7.jpg",
+    "cat8.jpg",
+    "cat9.jpg",
+    "cat10.jpg",
+    "cat11.jpg",
+    "cat12.jpg",
+    "cat13.jpg",
+    "cat14.jpg",
+    "cat15.jpg",
+    "cat16.jpg",
+    "cat17.jpg",
+    "cat18.jpg",
+    "cat19.jpg"
   ],
   "names": [
     "Tom",
     "Harry",
-    "Paul"
+    "Khalid Le",
+    "Brody Morton",
+    "Liliana Coleman",
+    "Leona Atkins",
+    "Alfred Huffman",
+    "Jack",
+    "Oliver",
+    "Mercy",
+    "Casey",
+    "Simon",
+    "Ryann Little",
+    "Allen",
+    "Martha",
+    "Taylor",
+    "Runar",
+    "Estelle",
+    "Jamie",
+    "Alan"
+
   ],
   "descriptions": [
     "I love walking along the beach, and eating mice",
     "My favorite thing to do is kill",
-    "Looking for the perfect soulmate"
+    "Looking for the perfect soulmate",
+    "I’m a purrr-fect blend of cuddly and curious. Let’s make some memories (and mischief) together!",
+    "Fluffy, sassy, and ready to take on the world. Swipe right if you’re ready for a life full of purrs!",
+    "Let’s find a cozy spot to curl up and share our most embarrassing pet moments. I promise not to judge!",
+    "Looking for someone to share sunbeams and warm laps. Bonus points if you come with treats!",
+    "Let’s paws and reflect on our favorite napping spots together. Cat naps are better with company!",
+    "I’m not just a pretty face; I’m also an expert in knocking things off shelves. Swipe right if you can handle a little chaos!",
+    "Are you the catnip to my heart? Let’s create a love story that even the neighborhood dogs will envy.",
+    "Looking for a feline friend to help me rule the world. Together, we’ll be unstoppable!",
+    "Let’s be like two peas in a pod… or two fluffballs in a basket",
+    "If you had a signature purr-sonality trait, what would it be: sassy, snuggly, or silly?",
+    "What’s your go-to move to get out of a sticky situation: play dead, act aloof, or charm your way out?",
+    "Swipe right if you can handle a little darkness. I promise to keep the monsters at bay... mostly.",
+    "I promise I’m not as scary as I seem... unless the lights go out. Then all bets are off.",
+    "People are like puzzles; the more you piece them together, the clearer the picture becomes... or falls apart.",
+    "In the quiet moments, I hear their voices—reminders of the stories waiting to be told.",
+    "Signs my houseplant is trying to communicate??",
+    "Why fit in when you were born to stand out like a flamingo in a flock of pigeons?"
+
   ]
 }

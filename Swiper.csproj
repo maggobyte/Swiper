@@ -58,15 +58,49 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\cats\cat1.jpg" />
+	  <None Remove="Resources\Images\cats\cat10.jpg" />
+	  <None Remove="Resources\Images\cats\cat11.jpg" />
+	  <None Remove="Resources\Images\cats\cat12.jpg" />
+	  <None Remove="Resources\Images\cats\cat13.jpg" />
+	  <None Remove="Resources\Images\cats\cat14.jpg" />
+	  <None Remove="Resources\Images\cats\cat15.jpg" />
+	  <None Remove="Resources\Images\cats\cat16.jpg" />
+	  <None Remove="Resources\Images\cats\cat17.jpg" />
+	  <None Remove="Resources\Images\cats\cat18.jpg" />
+	  <None Remove="Resources\Images\cats\cat19.jpg" />
 	  <None Remove="Resources\Images\cats\cat2.jpg" />
+	  <None Remove="Resources\Images\cats\cat20.jpg" />
 	  <None Remove="Resources\Images\cats\cat3.jpg" />
+	  <None Remove="Resources\Images\cats\cat4.jpg" />
+	  <None Remove="Resources\Images\cats\cat5.jpg" />
+	  <None Remove="Resources\Images\cats\cat6.jpg" />
+	  <None Remove="Resources\Images\cats\cat7.jpg" />
+	  <None Remove="Resources\Images\cats\cat8.jpg" />
+	  <None Remove="Resources\Images\cats\cat9.jpg" />
 	  <None Remove="resources\raw\data.json" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <MauiImage Include="Resources\Images\cats\cat1.jpg" />
+	  <MauiImage Include="Resources\Images\cats\cat10.jpg" />
+	  <MauiImage Include="Resources\Images\cats\cat11.jpg" />
+	  <MauiImage Include="Resources\Images\cats\cat12.jpg" />
+	  <MauiImage Include="Resources\Images\cats\cat13.jpg" />
+	  <MauiImage Include="Resources\Images\cats\cat14.jpg" />
+	  <MauiImage Include="Resources\Images\cats\cat15.jpg" />
+	  <MauiImage Include="Resources\Images\cats\cat16.jpg" />
+	  <MauiImage Include="Resources\Images\cats\cat17.jpg" />
+	  <MauiImage Include="Resources\Images\cats\cat18.jpg" />
+	  <MauiImage Include="Resources\Images\cats\cat19.jpg" />
 	  <MauiImage Include="Resources\Images\cats\cat2.jpg" />
+	  <MauiImage Include="Resources\Images\cats\cat20.jpg" />
 	  <MauiImage Include="Resources\Images\cats\cat3.jpg" />
+	  <MauiImage Include="Resources\Images\cats\cat4.jpg" />
+	  <MauiImage Include="Resources\Images\cats\cat5.jpg" />
+	  <MauiImage Include="Resources\Images\cats\cat6.jpg" />
+	  <MauiImage Include="Resources\Images\cats\cat7.jpg" />
+	  <MauiImage Include="Resources\Images\cats\cat8.jpg" />
+	  <MauiImage Include="Resources\Images\cats\cat9.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
