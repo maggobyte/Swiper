@@ -39,6 +39,7 @@ namespace Swiper
         private async void InitializeAsync()
         {
             await LoadDataAsync();
+            LoadImage_Click(null,null);
         }
         private async Task LoadDataAsync()
         {
@@ -98,7 +99,6 @@ namespace Swiper
         public List<string> images { get; set; }
         public List<string> names { get; set; }
         public List<string> descriptions { get; set; }
-
 
     }
 }
