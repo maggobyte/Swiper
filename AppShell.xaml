@@ -6,7 +6,8 @@
     xmlns:local="clr-namespace:Swiper"
     Shell.FlyoutBehavior="Disabled"
     Title="Swiper"
-    Shell.NavBarIsVisible="False">
+    Shell.NavBarIsVisible="False"
+    BackgroundColor="#DF92CB">
 
     <ShellContent
         Title="Home"
