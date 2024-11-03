@@ -15,11 +15,26 @@ namespace Swiper
 
         private int currentImageIndex = 0;
         private Random random;
+
         public MainPage()
         {
             InitializeComponent();
             random = new Random();
             InitializeAsync();
+
+            var swipeRightGesture = new SwipeGestureRecognizer
+            {
+                Direction = SwipeDirection.Right
+            };
+            swipeRightGesture.Swiped += OnSwipeRight;
+            stackLayout.GestureRecognizers.Add(swipeRightGesture);
+
+            var swipeLeftGesture = new SwipeGestureRecognizer
+            {
+                Direction = SwipeDirection.Left
+            };
+            swipeLeftGesture.Swiped += OnSwipeLeft;
+            stackLayout.GestureRecognizers.Add(swipeLeftGesture);
         }
         private async void InitializeAsync()
         {
@@ -68,7 +83,16 @@ namespace Swiper
             approveBtn.IsEnabled = true;
             denyBtn.IsEnabled = true;
         }
+        private void OnSwipeRight(object sender, SwipedEventArgs e)
+        {
+            LoadImage_Click(sender, e);
+        }
+        private void OnSwipeLeft(object sender, SwipedEventArgs e)
+        {
+            LoadImage_Click(sender, e);
+        }
     }
+
     public class DataModel
     {
         public List<string> images { get; set; }
