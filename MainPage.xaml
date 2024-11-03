@@ -38,7 +38,7 @@
                 </Grid>
                 <Label
                     x:Name="namecat"
-                    Text="HEI"
+                    Text="CATNAME"
                     HorizontalOptions="Center"
                     FontSize="24"
                     FontAttributes="Bold"/>
@@ -54,7 +54,7 @@
 
                     <Label
                     x:Name="descriptionImage"
-                    Text="HEI"
+                    Text="CATDESCRIPTION"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     FontSize="24"
