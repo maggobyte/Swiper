@@ -60,6 +60,7 @@
 	  <None Remove="Resources\Images\cats\cat1.jpg" />
 	  <None Remove="Resources\Images\cats\cat2.jpg" />
 	  <None Remove="Resources\Images\cats\cat3.jpg" />
+	  <None Remove="resources\raw\data.json" />
 	</ItemGroup>
 
 	<ItemGroup>

@@ -1,0 +1,17 @@
+{
+  "images": [
+    "cat1.jpg",
+    "cat2.jpg",
+    "cat3.jpg"
+  ],
+  "names": [
+    "Tom",
+    "Harry",
+    "Paul"
+  ],
+  "descriptions": [
+    "I love walking along the beach, and eating mice",
+    "My favorite thing to do is kill",
+    "Looking for the perfect soulmate"
+  ]
+}
