@@ -42,7 +42,8 @@
                     Text="CATNAME"
                     HorizontalOptions="Center"
                     FontSize="24"
-                    FontAttributes="Bold"/>
+                    FontAttributes="Bold"
+                    TextColor="Black"/>
                 <Grid>
                     <Image
                     x:Name="imageBottom"
@@ -60,7 +61,8 @@
                     VerticalOptions="Center"
                     FontSize="20"
                     MaximumWidthRequest="270"
-                    MaximumHeightRequest="175"/>
+                    MaximumHeightRequest="175"
+                    TextColor="Black"/>
                 </Grid>
             </VerticalStackLayout>
             
@@ -93,7 +95,8 @@
                 x:Name="Footnote"
                 Text="@maggobyte"
                 HorizontalOptions="Center"
-                VerticalOptions="End"/>
+                VerticalOptions="End"
+                TextColor="Black"/>
 
         </HorizontalStackLayout>
     </Grid>
